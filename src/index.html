@@ -4,30 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <title>Practica</title>
 </head>
 <body>
-  <div class="text-center container bg-red-500 mx-auto">
+  <div class="text-center text-white container bg-red-500 mx-auto">
     <header class="bg-orange-600 h-14 ">
       Header 
     </header>
-    <div class=" flex flex-wrap bg-blue-300">
-      <menu class="bg-green-800 w-1/5">
+    <div class="gap-2 grid grid-cols-5 bg-black">
+      <menu class="bg-green-800 ">
         Menu
       </menu>
-      <Section class="bg-purple-500 w-4/5">
+      <Section class="col-span-4 bg-gray-500">
         Contenido
       </Section>
-      <div class="bg-green-300 w-1/3">
-        Menu
-      </div>
-      <div class="bg-green-500 w-1/3">
-        Menu
-      </div>
-      <div class="bg-green-700 w-1/3">
-        Menu
+      <div class="col-span-5 grid grid-cols-3 gap-2">
+        <div class=" bg-blue-300">
+          Menu
+        </div>
+        <div class=" bg-blue-500">
+          Menu
+        </div>
+        <div class=" bg-blue-700">
+          Menu
+        </div>
       </div>
     </div>
-    <footer class="bg-pink-400">
+    <footer class="bg-red-700">
       Footer
     </footer>
   </div>
